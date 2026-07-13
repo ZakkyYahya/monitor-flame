@@ -85,6 +85,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "IoT Sensor Dashboard" },
+      { name: "twitter:description", content: "Real-time IoT sensor monitoring dashboard with live charts and device controls." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e3e3fa9e-128b-49fd-844b-5fd7bfa6c4f6/id-preview-653726f2--8a620494-b014-4ff9-9bbb-2a5b0c4b2374.lovable.app-1783946282684.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e3e3fa9e-128b-49fd-844b-5fd7bfa6c4f6/id-preview-653726f2--8a620494-b014-4ff9-9bbb-2a5b0c4b2374.lovable.app-1783946282684.png" },
     ],
     links: [
       {
